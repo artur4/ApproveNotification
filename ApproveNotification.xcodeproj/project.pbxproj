@@ -13,9 +13,30 @@
 		6393B4EC2128B28B00ACDEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6393B4EB2128B28B00ACDEAE /* Assets.xcassets */; };
 		6393B4EF2128B28B00ACDEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6393B4ED2128B28B00ACDEAE /* LaunchScreen.storyboard */; };
 		6393B4F22128B28B00ACDEAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B4F12128B28B00ACDEAE /* main.m */; };
+		6393B4FB2128B3CB00ACDEAE /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B4FA2128B3CB00ACDEAE /* NetworkClient.m */; };
+		6393B4FF2128B3F000ACDEAE /* RequestConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B4FE2128B3F000ACDEAE /* RequestConfigurator.m */; };
+		6393B5032128B44400ACDEAE /* RequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5022128B44400ACDEAE /* RequestData.m */; };
+		6393B5072128B45D00ACDEAE /* ServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5062128B45D00ACDEAE /* ServerResponse.m */; };
+		6393B5112128B8C200ACDEAE /* NetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5102128B8C200ACDEAE /* NetworkOperation.m */; };
+		6393B5142128B96200ACDEAE /* OperationScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5132128B96200ACDEAE /* OperationScheduler.m */; };
+		6393B5172128B9BE00ACDEAE /* MappingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5162128B9BE00ACDEAE /* MappingOperation.m */; };
+		6393B51A2128BA6600ACDEAE /* NetworkCompoundOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5192128BA6600ACDEAE /* NetworkCompoundOperation.m */; };
+		6393B51E2128BB0900ACDEAE /* MappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B51D2128BB0900ACDEAE /* MappingProvider.m */; };
+		6393B5242128BC5600ACDEAE /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5232128BC5600ACDEAE /* BaseService.m */; };
+		6393B5272128BC6500ACDEAE /* BaseServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5262128BC6500ACDEAE /* BaseServiceRequest.m */; };
+		6393B52C2128BE4300ACDEAE /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B52B2128BE4300ACDEAE /* DataService.m */; };
+		6393B5302128BEE600ACDEAE /* DataServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B52F2128BEE600ACDEAE /* DataServiceRequest.m */; };
+		6393B5342128C0D300ACDEAE /* MainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5332128C0D300ACDEAE /* MainAssembly.m */; };
+		6393B5362128CACE00ACDEAE /* stub.json in Resources */ = {isa = PBXBuildFile; fileRef = 6393B5352128CACE00ACDEAE /* stub.json */; };
+		6393B53D2129769300ACDEAE /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B53C2129769300ACDEAE /* DataModel.m */; };
+		6393B54121297F3A00ACDEAE /* NSDateFormatter+Current.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B54021297F3A00ACDEAE /* NSDateFormatter+Current.m */; };
+		6393B5462129C00D00ACDEAE /* LocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6393B5452129C00D00ACDEAE /* LocalNotification.m */; };
+		B100D3F2DFC83ECC0AE95BFE /* libPods-ApproveNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 587A76C3E63EB897F01757B4 /* libPods-ApproveNotification.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		317591193452A813C9E77CF9 /* Pods-ApproveNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApproveNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApproveNotification/Pods-ApproveNotification.release.xcconfig"; sourceTree = "<group>"; };
+		587A76C3E63EB897F01757B4 /* libPods-ApproveNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApproveNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6393B4DF2128B28A00ACDEAE /* ApproveNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApproveNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6393B4E22128B28A00ACDEAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6393B4E32128B28A00ACDEAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +47,45 @@
 		6393B4EE2128B28B00ACDEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6393B4F02128B28B00ACDEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6393B4F12128B28B00ACDEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6393B4F92128B3CB00ACDEAE /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		6393B4FA2128B3CB00ACDEAE /* NetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		6393B4FD2128B3F000ACDEAE /* RequestConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestConfigurator.h; sourceTree = "<group>"; };
+		6393B4FE2128B3F000ACDEAE /* RequestConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestConfigurator.m; sourceTree = "<group>"; };
+		6393B5012128B44400ACDEAE /* RequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestData.h; sourceTree = "<group>"; };
+		6393B5022128B44400ACDEAE /* RequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestData.m; sourceTree = "<group>"; };
+		6393B5052128B45D00ACDEAE /* ServerResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerResponse.h; sourceTree = "<group>"; };
+		6393B5062128B45D00ACDEAE /* ServerResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerResponse.m; sourceTree = "<group>"; };
+		6393B50F2128B8C200ACDEAE /* NetworkOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkOperation.h; sourceTree = "<group>"; };
+		6393B5102128B8C200ACDEAE /* NetworkOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkOperation.m; sourceTree = "<group>"; };
+		6393B5122128B96200ACDEAE /* OperationScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationScheduler.h; sourceTree = "<group>"; };
+		6393B5132128B96200ACDEAE /* OperationScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationScheduler.m; sourceTree = "<group>"; };
+		6393B5152128B9BE00ACDEAE /* MappingOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MappingOperation.h; sourceTree = "<group>"; };
+		6393B5162128B9BE00ACDEAE /* MappingOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappingOperation.m; sourceTree = "<group>"; };
+		6393B5182128BA6600ACDEAE /* NetworkCompoundOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkCompoundOperation.h; sourceTree = "<group>"; };
+		6393B5192128BA6600ACDEAE /* NetworkCompoundOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkCompoundOperation.m; sourceTree = "<group>"; };
+		6393B51C2128BB0900ACDEAE /* MappingProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		6393B51D2128BB0900ACDEAE /* MappingProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappingProvider.m; sourceTree = "<group>"; };
+		6393B5222128BC5600ACDEAE /* BaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		6393B5232128BC5600ACDEAE /* BaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		6393B5252128BC6500ACDEAE /* BaseServiceRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseServiceRequest.h; sourceTree = "<group>"; };
+		6393B5262128BC6500ACDEAE /* BaseServiceRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseServiceRequest.m; sourceTree = "<group>"; };
+		6393B5282128BC7500ACDEAE /* ServiceAPIProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceAPIProtocol.h; sourceTree = "<group>"; };
+		6393B52A2128BE4300ACDEAE /* DataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		6393B52B2128BE4300ACDEAE /* DataService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+		6393B52D2128BE9900ACDEAE /* DataServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataServiceProtocol.h; sourceTree = "<group>"; };
+		6393B52E2128BEE600ACDEAE /* DataServiceRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataServiceRequest.h; sourceTree = "<group>"; };
+		6393B52F2128BEE600ACDEAE /* DataServiceRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataServiceRequest.m; sourceTree = "<group>"; };
+		6393B5322128C0D300ACDEAE /* MainAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAssembly.h; sourceTree = "<group>"; };
+		6393B5332128C0D300ACDEAE /* MainAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAssembly.m; sourceTree = "<group>"; };
+		6393B5352128CACE00ACDEAE /* stub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stub.json; sourceTree = "<group>"; };
+		6393B53B2129769300ACDEAE /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		6393B53C2129769300ACDEAE /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		6393B53E212977AC00ACDEAE /* HTTPMethodConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPMethodConstants.h; sourceTree = "<group>"; };
+		6393B53F21297F3A00ACDEAE /* NSDateFormatter+Current.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Current.h"; sourceTree = "<group>"; };
+		6393B54021297F3A00ACDEAE /* NSDateFormatter+Current.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Current.m"; sourceTree = "<group>"; };
+		6393B5442129C00D00ACDEAE /* LocalNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotification.h; sourceTree = "<group>"; };
+		6393B5452129C00D00ACDEAE /* LocalNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotification.m; sourceTree = "<group>"; };
+		BAF327E353EA9D829005D261 /* Pods-ApproveNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApproveNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApproveNotification/Pods-ApproveNotification.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +93,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B100D3F2DFC83ECC0AE95BFE /* libPods-ApproveNotification.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA2A069C43F514812F0FF77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAF327E353EA9D829005D261 /* Pods-ApproveNotification.debug.xcconfig */,
+				317591193452A813C9E77CF9 /* Pods-ApproveNotification.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62A06CCF3FF375F68E7B202D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				587A76C3E63EB897F01757B4 /* libPods-ApproveNotification.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6393B4D62128B28900ACDEAE = {
 			isa = PBXGroup;
 			children = (
 				6393B4E12128B28A00ACDEAE /* ApproveNotification */,
 				6393B4E02128B28A00ACDEAE /* Products */,
+				0AA2A069C43F514812F0FF77 /* Pods */,
+				62A06CCF3FF375F68E7B202D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +138,11 @@
 		6393B4E12128B28A00ACDEAE /* ApproveNotification */ = {
 			isa = PBXGroup;
 			children = (
+				6393B5432129BFA900ACDEAE /* LocalNotification */,
+				6393B5422129BF0500ACDEAE /* Helpers */,
+				6393B4F82128B39100ACDEAE /* CoreLayer */,
+				6393B51F2128BC2400ACDEAE /* ServerSide */,
+				6393B5312128C0C000ACDEAE /* Assembly */,
 				6393B4E22128B28A00ACDEAE /* AppDelegate.h */,
 				6393B4E32128B28A00ACDEAE /* AppDelegate.m */,
 				6393B4E52128B28A00ACDEAE /* ViewController.h */,
@@ -71,6 +156,199 @@
 			path = ApproveNotification;
 			sourceTree = "<group>";
 		};
+		6393B4F82128B39100ACDEAE /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6393B50A2128B84C00ACDEAE /* Mapping */,
+				6393B5092128B84100ACDEAE /* Operation */,
+				6393B5082128B81600ACDEAE /* NetworkClient */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		6393B4FC2128B3DC00ACDEAE /* RequestConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				6393B4FD2128B3F000ACDEAE /* RequestConfigurator.h */,
+				6393B4FE2128B3F000ACDEAE /* RequestConfigurator.m */,
+			);
+			path = RequestConfigurator;
+			sourceTree = "<group>";
+		};
+		6393B5002128B43A00ACDEAE /* RequestData */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5012128B44400ACDEAE /* RequestData.h */,
+				6393B5022128B44400ACDEAE /* RequestData.m */,
+			);
+			path = RequestData;
+			sourceTree = "<group>";
+		};
+		6393B5042128B45500ACDEAE /* ServerResponse */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5052128B45D00ACDEAE /* ServerResponse.h */,
+				6393B5062128B45D00ACDEAE /* ServerResponse.m */,
+			);
+			path = ServerResponse;
+			sourceTree = "<group>";
+		};
+		6393B5082128B81600ACDEAE /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				6393B4FC2128B3DC00ACDEAE /* RequestConfigurator */,
+				6393B5002128B43A00ACDEAE /* RequestData */,
+				6393B5042128B45500ACDEAE /* ServerResponse */,
+				6393B4F92128B3CB00ACDEAE /* NetworkClient.h */,
+				6393B4FA2128B3CB00ACDEAE /* NetworkClient.m */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		6393B5092128B84100ACDEAE /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				6393B50B2128B85F00ACDEAE /* NetworkOperation */,
+				6393B50C2128B86C00ACDEAE /* OperationScheduler */,
+				6393B50D2128B88000ACDEAE /* MappingOperation */,
+				6393B50E2128B89100ACDEAE /* NetworkCompoundOperation */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		6393B50A2128B84C00ACDEAE /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				6393B53A2129768600ACDEAE /* DataModel */,
+				6393B51B2128BB0100ACDEAE /* MappingProvider */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		6393B50B2128B85F00ACDEAE /* NetworkOperation */ = {
+			isa = PBXGroup;
+			children = (
+				6393B50F2128B8C200ACDEAE /* NetworkOperation.h */,
+				6393B5102128B8C200ACDEAE /* NetworkOperation.m */,
+			);
+			path = NetworkOperation;
+			sourceTree = "<group>";
+		};
+		6393B50C2128B86C00ACDEAE /* OperationScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5122128B96200ACDEAE /* OperationScheduler.h */,
+				6393B5132128B96200ACDEAE /* OperationScheduler.m */,
+			);
+			path = OperationScheduler;
+			sourceTree = "<group>";
+		};
+		6393B50D2128B88000ACDEAE /* MappingOperation */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5152128B9BE00ACDEAE /* MappingOperation.h */,
+				6393B5162128B9BE00ACDEAE /* MappingOperation.m */,
+			);
+			path = MappingOperation;
+			sourceTree = "<group>";
+		};
+		6393B50E2128B89100ACDEAE /* NetworkCompoundOperation */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5182128BA6600ACDEAE /* NetworkCompoundOperation.h */,
+				6393B5192128BA6600ACDEAE /* NetworkCompoundOperation.m */,
+			);
+			path = NetworkCompoundOperation;
+			sourceTree = "<group>";
+		};
+		6393B51B2128BB0100ACDEAE /* MappingProvider */ = {
+			isa = PBXGroup;
+			children = (
+				6393B51C2128BB0900ACDEAE /* MappingProvider.h */,
+				6393B51D2128BB0900ACDEAE /* MappingProvider.m */,
+			);
+			path = MappingProvider;
+			sourceTree = "<group>";
+		};
+		6393B51F2128BC2400ACDEAE /* ServerSide */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5202128BC3900ACDEAE /* NetworkLayer */,
+				6393B53E212977AC00ACDEAE /* HTTPMethodConstants.h */,
+			);
+			path = ServerSide;
+			sourceTree = "<group>";
+		};
+		6393B5202128BC3900ACDEAE /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5292128BE3100ACDEAE /* DataService */,
+				6393B5212128BC4600ACDEAE /* Base */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		6393B5212128BC4600ACDEAE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5222128BC5600ACDEAE /* BaseService.h */,
+				6393B5232128BC5600ACDEAE /* BaseService.m */,
+				6393B5252128BC6500ACDEAE /* BaseServiceRequest.h */,
+				6393B5262128BC6500ACDEAE /* BaseServiceRequest.m */,
+				6393B5282128BC7500ACDEAE /* ServiceAPIProtocol.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6393B5292128BE3100ACDEAE /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5352128CACE00ACDEAE /* stub.json */,
+				6393B52A2128BE4300ACDEAE /* DataService.h */,
+				6393B52B2128BE4300ACDEAE /* DataService.m */,
+				6393B52D2128BE9900ACDEAE /* DataServiceProtocol.h */,
+				6393B52E2128BEE600ACDEAE /* DataServiceRequest.h */,
+				6393B52F2128BEE600ACDEAE /* DataServiceRequest.m */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		6393B5312128C0C000ACDEAE /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5322128C0D300ACDEAE /* MainAssembly.h */,
+				6393B5332128C0D300ACDEAE /* MainAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		6393B53A2129768600ACDEAE /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6393B53B2129769300ACDEAE /* DataModel.h */,
+				6393B53C2129769300ACDEAE /* DataModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		6393B5422129BF0500ACDEAE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6393B53F21297F3A00ACDEAE /* NSDateFormatter+Current.h */,
+				6393B54021297F3A00ACDEAE /* NSDateFormatter+Current.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6393B5432129BFA900ACDEAE /* LocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				6393B5442129C00D00ACDEAE /* LocalNotification.h */,
+				6393B5452129C00D00ACDEAE /* LocalNotification.m */,
+			);
+			path = LocalNotification;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6393B4F52128B28B00ACDEAE /* Build configuration list for PBXNativeTarget "ApproveNotification" */;
 			buildPhases = (
+				DC966E7D614AB56D5F256365 /* [CP] Check Pods Manifest.lock */,
 				6393B4DB2128B28900ACDEAE /* Sources */,
 				6393B4DC2128B28900ACDEAE /* Frameworks */,
 				6393B4DD2128B28900ACDEAE /* Resources */,
@@ -128,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6393B5362128CACE00ACDEAE /* stub.json in Resources */,
 				6393B4EF2128B28B00ACDEAE /* LaunchScreen.storyboard in Resources */,
 				6393B4EC2128B28B00ACDEAE /* Assets.xcassets in Resources */,
 				6393B4EA2128B28A00ACDEAE /* Main.storyboard in Resources */,
@@ -136,14 +416,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC966E7D614AB56D5F256365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApproveNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6393B4DB2128B28900ACDEAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6393B5112128B8C200ACDEAE /* NetworkOperation.m in Sources */,
+				6393B51A2128BA6600ACDEAE /* NetworkCompoundOperation.m in Sources */,
+				6393B5242128BC5600ACDEAE /* BaseService.m in Sources */,
+				6393B54121297F3A00ACDEAE /* NSDateFormatter+Current.m in Sources */,
+				6393B5302128BEE600ACDEAE /* DataServiceRequest.m in Sources */,
+				6393B5072128B45D00ACDEAE /* ServerResponse.m in Sources */,
+				6393B5272128BC6500ACDEAE /* BaseServiceRequest.m in Sources */,
+				6393B51E2128BB0900ACDEAE /* MappingProvider.m in Sources */,
+				6393B5462129C00D00ACDEAE /* LocalNotification.m in Sources */,
+				6393B52C2128BE4300ACDEAE /* DataService.m in Sources */,
+				6393B4FF2128B3F000ACDEAE /* RequestConfigurator.m in Sources */,
+				6393B5032128B44400ACDEAE /* RequestData.m in Sources */,
 				6393B4E72128B28A00ACDEAE /* ViewController.m in Sources */,
+				6393B53D2129769300ACDEAE /* DataModel.m in Sources */,
+				6393B5342128C0D300ACDEAE /* MainAssembly.m in Sources */,
 				6393B4F22128B28B00ACDEAE /* main.m in Sources */,
+				6393B5172128B9BE00ACDEAE /* MappingOperation.m in Sources */,
 				6393B4E42128B28A00ACDEAE /* AppDelegate.m in Sources */,
+				6393B4FB2128B3CB00ACDEAE /* NetworkClient.m in Sources */,
+				6393B5142128B96200ACDEAE /* OperationScheduler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,33 +599,37 @@
 		};
 		6393B4F62128B28B00ACDEAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF327E353EA9D829005D261 /* Pods-ApproveNotification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApproveNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.test.app.ApproveNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6393B4F72128B28B00ACDEAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317591193452A813C9E77CF9 /* Pods-ApproveNotification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApproveNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.test.app.ApproveNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

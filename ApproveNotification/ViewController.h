@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataService.h"
+#import "LocalNotification.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) DataService *dataService;
+
+@property (strong, nonatomic) LocalNotification *localNotification;
 
 @end
 
